@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="topo">
+        <h3>Conversor de Números</h3>
+    </div>
+    <div class="container">
+        <form action="#" class="form">
+            <select  class="select1" >
+                <option value="binario">Binário</option>
+                <option value="decimal">Decimal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+                <option value="octal">Octal</option>
+            </select>
+            
+            <span>para</span>
+
+            <select  class="select2">
+                <option value="decimal">Decimal</option>
+                <option value="binario">Binário</option>
+                <option value="hexadecimal">Hexadecimal</option>
+                <option value="octal">Octal</option>
+            </select>
+            <div class="envio">
+                <input type="number"  class="num">
+                <input type="submit" value="Converter" id="sub" >
+            </div>
+        </form>
+        <div class="result">
+            
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="conversor.js"></script>
+</body>
+</html>
