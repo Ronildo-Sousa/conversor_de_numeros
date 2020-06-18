@@ -10,28 +10,30 @@
 <body>
     <div class="topo">
         <h3>Conversor de Números</h3>
+        <div class='error' style="display: none;"></div>
+        <div class=" info"  style="display: none;">info</div>
     </div>
     <div class="container">
         <form action="#" class="form">
             <select  class="select1" >
-                <option value="binario">Binário</option>
                 <option value="decimal">Decimal</option>
+                <option value="binario">Binário</option>
                 <option value="hexadecimal">Hexadecimal</option>
                 <option value="octal">Octal</option>
             </select>
             
             <span>para</span>
 
-            <select  class="select2">
-                <option value="decimal">Decimal</option>
+            <select  class="select2">              
                 <option value="binario">Binário</option>
+                <option value="decimal">Decimal</option>
                 <option value="hexadecimal">Hexadecimal</option>
                 <option value="octal">Octal</option>
             </select>
-            <div class="envio">
-                <input type="number"  class="num">
-                <input type="submit" value="Converter" id="sub" >
-            </div>
+            
+            <input type="text"  class="num">
+            <input type="submit" value="Converter" id="sub" >
+            
         </form>
         <div class="result">
             
